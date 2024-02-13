@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real or Fake News</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+</head>
+<body>
+    <h1>Fake-or-Real News</h1>
+    <h2>The result of the entered Article is: <span style="color: #ff0000">{{result}} News</span></h2>
+    {% for key, value in text.items() %}
+        <p>Entered Article: </p>
+        <p> {{value}} </p>
+    {% endfor %}
+</body>
+</html>

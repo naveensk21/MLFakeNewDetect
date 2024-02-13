@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake or Real</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/index.css') }}">
+</head>
+<body>
+    <h1>Fake-or-Real News</h1>
+    <p>{{ pred }}</p>
+    <h2>Check Whether a News Article is Real or Fake</h2>
+    <div id="inputForm">
+    <form action="/predict" method="post">
+        <label for="text">Enter article text below:</label><br>
+        <textarea name="text" id="textArea1" cols="50" rows="20"></textarea><br>
+<!--        <input type="text" name="text" id="inputBox" placeholder="Enter the article here"><br>-->
+        <input type="submit" id="submitBtn" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
