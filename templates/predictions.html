@@ -7,7 +7,11 @@
 </head>
 <body>
     <h1>Fake-or-Real News</h1>
-    <h2>The result of the entered Article is: <span style="color: #ff0000">{{result}} News</span></h2>
+    {% if result == 'Real' %}
+            <h2>The result of the entered Article is: <span style="color: #0000ff">{{result}} News</span></h2>
+            {% else %}
+            <h2>The result of the entered Article is: <span style="color: #ff0000">{{result}} News</span></h2>
+    {% endif %}
     {% for key, value in text.items() %}
         <p>Entered Article: </p>
         <p> {{value}} </p>
