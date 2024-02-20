@@ -12,9 +12,25 @@
             {% else %}
             <h2>The result of the entered Article is: <span style="color: #ff0000">{{result}} News</span></h2>
     {% endif %}
-    {% for key, value in text.items() %}
-        <p>Entered Article: </p>
-        <p> {{value}} </p>
-    {% endfor %}
+
+    {% if model_select == 'ML_RF_Model'%}
+        <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
+        <h3>Model Precision Score: {{ precision_scores.get('ML_RF_precision') }}</h3>
+    {% elif model_select == 'ML_SVM_Model' %}
+        <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
+        <h3>Model Precision Score: {{ precision_scores.get('ML_SVM_precision') }}</h3>
+    {% elif model_select == 'DL_CNN_Model' %}
+        <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
+    {% else %}
+        <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
+    {% endif %}
+
+    <p>Entered Article: </p>
+    <p> {{text_value}} </p>
+
+<!--    {% for key, value in text.items() %}-->
+<!--        <p>Entered Article: </p>-->
+<!--        <p> {{value}} </p>-->
+<!--    {% endfor %}-->
 </body>
 </html>

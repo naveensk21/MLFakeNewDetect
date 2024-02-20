@@ -14,7 +14,22 @@
         <label for="text">Enter article text below:</label><br>
         <textarea name="text" id="textArea1" cols="50" rows="20"></textarea><br>
 <!--        <input type="text" name="text" id="inputBox" placeholder="Enter the article here"><br>-->
+
+        <label for="model">Choose a model:</label>
+            <select name="modelSelect" id="model">
+                <optgroup label="ML Model">
+                    <option value="ML_RF_Model">RF Model</option>
+                    <option value="ML_SVM_Model">SVM Model</option>
+                </optgroup>
+                <optgroup label="DL Model">
+                    <option value="DL_CNN">CNN</option>
+                    <option value="DL_LSTM">LSTM</option>
+                </optgroup>
+            </select>
+        <br><br>
         <input type="submit" id="submitBtn" value="Submit">
+
+
     </form>
     </div>
 </body>
