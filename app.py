@@ -1,4 +1,9 @@
 import errno
+from keras.models import load_model
+from keras.utils import pad_sequences
+from keras.preprocessing.text import Tokenizer
+import pickle
+
 
 from flask import Flask, request, render_template
 
@@ -7,17 +12,31 @@ try:
 except ImportError:
     from collections import Sequence
 
-import pickle
-
 # load model
 rf_loaded_model = pickle.load(open('model/rf_model.sav', 'rb'))
 svm_loaded_model = pickle.load(open('model/svm_model.sav', 'rb'))
+lstm_loaded_model = load_model('model/lstm_best_model.epoch08-loss0.07.hdf5')
 
 # load vectorizer
 rf_loaded_vectorizer = pickle.load(open("model/rf_vectorizer.pickle", "rb"))
 svm_loaded_vectorizer = pickle.load(open('model/svm_vectorizer.pickle', 'rb'))
+with open('model/lstm_tokenizer.pickle', 'rb') as handle:
+    lstm_loaded_tokenizer = pickle.load(handle)
 
-precision_scores = {'ML_RF_precision': '94%', 'ML_SVM_precision': '96%', 'DL_CNN': ''}
+precision_scores = {'ML_RF_precision': '94%', 'ML_SVM_precision': '96%', 'DL_LSTM_precision': '97%'}
+
+
+def dl_model_pred(text, model, tokenizer):
+    max_len=1000
+
+    seq = tokenizer.texts_to_sequences([text])
+    padded_text = pad_sequences(seq, maxlen=max_len, padding='post')
+
+    pred = model.predict(padded_text)
+    if pred > 0.7:
+        return 1
+    else:
+        return 0
 
 
 def model_predict(requested_text, vect, model):
@@ -42,7 +61,6 @@ def predict():
     text_value = list(text.values())[0]
 
     model_select = request.form.get('modelSelect')
-    print(model_select)
 
     if model_select == 'ML_RF_Model':
         predicted = model_predict(text, rf_loaded_vectorizer, rf_loaded_model)
@@ -50,10 +68,9 @@ def predict():
     elif model_select == 'ML_SVM_Model':
         predicted = model_predict(text, svm_loaded_vectorizer, svm_loaded_model)
         pred.append(predicted)
-    elif model_select == 'DL_CNN':
-        pass
-    else:
-        pass
+    elif model_select == 'DL_LSTM_Model':
+        predicted = dl_model_pred(text_value, lstm_loaded_model, lstm_loaded_tokenizer)
+        pred.append(predicted)
     print(pred)
 
     if 1 in pred:
