@@ -19,10 +19,9 @@
     {% elif model_select == 'ML_SVM_Model' %}
         <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
         <h3>Model Precision Score: {{ precision_scores.get('ML_SVM_precision') }}</h3>
-    {% elif model_select == 'DL_CNN_Model' %}
+    {% elif model_select == 'DL_LSTM_Model' %}
         <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
-    {% else %}
-        <h2>Selected Model: <span style="color: #0000ff">{{model_select}}</span></h2>
+        <h3>Model Precision Score: {{ precision_scores.get('DL_LSTM_precision') }}</h3>
     {% endif %}
 
     <p>Entered Article: </p>
