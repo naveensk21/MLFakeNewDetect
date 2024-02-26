@@ -3,7 +3,7 @@ The rise of social media has facilitated the widespread spread of false informat
 
 The project aims to develop a natural language processing application from the ground up and then host it using Flask.
 
-|![](figures/WebApp_Screenshot_Homepage.png)<br>Homepage|
+|![](figures/WebApp_Screenshot_Home.png)<br>Homepage|
 |:-:|
 
 |![](figures/WebApp_Screenshot_Prediction.png)<br>Prediction Page|
