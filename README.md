@@ -21,7 +21,7 @@ pip install requirements.txt
 
 
 # Python Packages Used
-General Purpose: os, request, re, json, time <br /> 
+General Purpose: os, request, re, json, pickle, time <br /> 
 Data Manipulation: [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) <br /> 
 Data Cleaning: [NLTK](https://www.nltk.org/) <br /> 
 Data Visualization: [Matplotlib](https://matplotlib.org/)<br /> 
