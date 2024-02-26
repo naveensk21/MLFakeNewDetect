@@ -9,17 +9,6 @@ The project aims to develop a natural language processing application from the g
 |![](figures/WebApp_Screenshot_Prediction.png)<br>Prediction Page|
 |:-:|
 
-
-# Installation
-Install projects required Python packages with pip
-```bash
-cd project
-pip install requirements.txt
-```
-# Codes and Resources Used
-Editor Used: Pycharm, Jupterlab
-Python Version: 3.7.9
-
 # Python Packages Used
 General Purpose: os, request, re, json, pickle, time <br /> 
 Data Manipulation: [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) <br /> 
