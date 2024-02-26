@@ -37,6 +37,12 @@ Before initiating text classification, it's crucial to preprocess news articles 
 ├── figures                  # Model evaluation figures
 ├── ml_model.py              # ML model implementation
 ├── model                    # Saved model and its tokenizer
+│   ├── lst_best_model.hdf5  
+│   ├── lstm_tokenizer.pickle
+│   ├── rf_model.sav
+│   ├── rf_vectorizer.pickle
+│   ├── svm_model.sav
+│   └── svm_vectorizer.pickle                   
 │   └── vectorizer.pickle
 ├── notebooks                # Detailed analysis and implementation of the ML and DL model
 │   ├── DL_Model.ipynb       # Detailed implementation of the dl model
