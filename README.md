@@ -1,7 +1,18 @@
-# Project Overview
+# Fake News Detection Web App Using Flask
 The rise of social media has facilitated the widespread spread of false information, with platforms like Twitter, Facebook, and Reddit being particularly susceptible to misinformation. This has led to significant challenges for society, including the dissemination of rumors, manipulation of political outcomes, and the increase in clickbait content. Detecting fake news is essential for maintaining societal well-being, and various methods, including traditional classification and advanced neural networks, have been developed to address this issue.
 
 The project aims to develop a natural language processing application from the ground up and then host it using Flask.
+
+
+# Installation
+Install projects required Python packages with pip
+```bash
+cd project
+pip install requirements.txt
+```
+
+
+
 
 # Python Packages Used
 General Purpose: os, request, re, json, time <br /> 
