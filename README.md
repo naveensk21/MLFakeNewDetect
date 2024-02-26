@@ -23,8 +23,11 @@ ML/DL Model Results
 | SVM      |   0.96    |  0.97  |   0.96   |
 | LSTM     |   0.97    |  0.98  |    -     |
 
-LSTM 
+## LSTM Evaluation
 
-![alt-text-1]('MLFakeNewDetect/figures
-/LSTM_Loss.png' "title-1") ![alt-text-2](image2.png "title-2")
+<p float="left">
+  <img src="figures/LSTM_Loss.png" width="100" />
+  <img src="/img2.png" width="100" /> 
+  <img src="/img3.png" width="100" />
+</p>
 
