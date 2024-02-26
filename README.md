@@ -30,24 +30,26 @@ Before initiating text classification, it's crucial to preprocess news articles 
 # Code Structure 
 ```bash
 .
-├── DL_Model.ipynb        # dl implementation notebook
-├── EDA.ipynb             # explatory data analysis notebook
-├── ML_Model.ipynb        # ml implementation notebook
 ├── README.md
-├── app.py                # web app implementation using Flask
-├── clean_data.py         # python script for cleaning the new articles 
-├── figures               # model evaluation results 
-├── ml_model.py           # ml model implementation
-├── model                 # saved model and its tokenizer
+├── app.py                   # Web app implementation using Flask
+├── clean_data.py            # Extract and clean the dataset
+├── dl_model.py              # DL model implementation
+├── figures                  # Model evaluation figures
+├── ml_model.py              # ML model implementation
+├── model                    # Saved model and its tokenizer
 │   └── vectorizer.pickle
-├── requirements.txt      # list of dependencies 
-├── static                # stylesheets
+├── notebooks                # detailed analysis and implementation of the ML and DL model
+│   ├── DL_Model.ipynb       # detailed implementation of the dl model
+│   ├── EDA.ipynb            # detailed exploratory data analysis
+│   └── ML_Model.ipynb       # detailed implementation of the ml model
+├── requirements.txt         # list of dependencies 
+├── static                   # stylesheet
 │   └── styles
 │       └── index.css
-├── templates             # html pages
-│   ├── index.html
-│   ├── notebook.html
-│   └── predictions.html
+├── templates                # html pages 
+│   ├── index.html           # homepage
+│   ├── notebook.html        # notebook page
+│   └── predictions.html     # prediction page
 ```
 
 # Results and Evaluation
