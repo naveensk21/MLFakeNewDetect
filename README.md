@@ -26,9 +26,8 @@ Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), 
 Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 
 # Dataset
-(WELFake) is a dataset of 72,134 news articles with 35,028 real and 37,106 fake news.
+[(WELFake)](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) is a dataset of 72,134 news articles with 35,028 real and 37,106 fake news.
 The dataset contains four columns: Serial number (starting from 0); Title (about the text news heading); Text (about the news content); and Label (0 = fake and 1 = real).
-[WELFake Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)
 
 # Code Structure 
 ```bash
