@@ -25,5 +25,5 @@ ML/DL Model Results
 
 LSTM 
 
-![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
+![alt-text-1](LSTM_Loss.png "title-1") ![alt-text-2](image2.png "title-2")
 
