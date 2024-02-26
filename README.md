@@ -1,11 +1,10 @@
 # Project Overview
 
 # Python Packages Used
-# Libraries Used
-General Purpose: os, request, re, json, time, 
-Data Manipulation: pandas, NumPy
-Data Cleaning: [NLTK](https://www.nltk.org/)
-Data Visualization: [Matplotlib](https://matplotlib.org/)
+General Purpose: os, request, re, json, time <br /> 
+Data Manipulation: pandas, NumPy <br /> 
+Data Cleaning: [NLTK](https://www.nltk.org/) <br /> 
+Data Visualization: [Matplotlib](https://matplotlib.org/)<br /> 
 Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), [Tensorflow](https://www.tensorflow.org/guide/keras), [Gensim](https://pypi.org/project/gensim/), [Optuna](https://optuna.org/) 
 
 # Dataset
