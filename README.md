@@ -15,7 +15,7 @@ Data Manipulation: [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.o
 Data Cleaning: [NLTK](https://www.nltk.org/) <br /> 
 Data Visualization: [Matplotlib](https://matplotlib.org/)<br /> 
 Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), [Tensorflow](https://www.tensorflow.org/guide/keras), [Gensim](https://pypi.org/project/gensim/), [Optuna](https://optuna.org/) <br/>
-Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
+Web Development: [Flask](https://flask.palletsprojects.com/en/3.0.x/), HTML/CSS, [Bootstrap](https://getbootstrap.com/)
 
 # Dataset
 [(WELFake)](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) is a dataset of 72,134 news articles with 35,028 real and 37,106 fake news.
