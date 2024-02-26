@@ -26,8 +26,8 @@ ML/DL Model Results
 ## LSTM Evaluation
 
 <p float="left">
-  <img src="figures/LSTM_Loss.png" width="100" />
-  <img src="/img2.png" width="100" /> 
-  <img src="/img3.png" width="100" />
+  <img src="figures/LSTM_Loss.png" width="300" />
+  <img src="figures/LSTM_Precision.png" width="300" /> 
+  <img src="figures/LSTM_Recall.png" width="300" />
 </p>
 
