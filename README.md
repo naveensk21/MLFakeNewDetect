@@ -5,10 +5,11 @@ The project aims to develop a natural language processing application from the g
 
 # Python Packages Used
 General Purpose: os, request, re, json, time <br /> 
-Data Manipulation: pandas, NumPy <br /> 
+Data Manipulation: [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) <br /> 
 Data Cleaning: [NLTK](https://www.nltk.org/) <br /> 
 Data Visualization: [Matplotlib](https://matplotlib.org/)<br /> 
-Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), [Tensorflow](https://www.tensorflow.org/guide/keras), [Gensim](https://pypi.org/project/gensim/), [Optuna](https://optuna.org/) 
+Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), [Tensorflow](https://www.tensorflow.org/guide/keras), [Gensim](https://pypi.org/project/gensim/), [Optuna](https://optuna.org/) <br/>
+Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 
 # Dataset
 (WELFake) is a dataset of 72,134 news articles with 35,028 real and 37,106 fake news.
