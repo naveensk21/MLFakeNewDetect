@@ -25,13 +25,7 @@ ML/DL Model Results
 
 ## LSTM Evaluation
 
-<p float="left">
-  <img src="figures/LSTM_Loss.png" width="300" title="LSTM Loss History" hspace="10"/> 
-  <img src="figures/LSTM_Precision.png" width="300" title="LSTM Precision History" hspace="10"/> 
-  <img src="figures/LSTM_Recall.png" width="300" title="LSTM Recall History" hspace="10"/>
-</p>
-
-|![](figures/LSTM_Loss.png)<br>text-1|![](figures/LSTM_Precision.png)<br>text-2|![](figures/LSTM_Recall.png)<br>text-2|
+|![](figures/LSTM_Loss.png)<br>LSTM Loss History|![](figures/LSTM_Precision.png)<br>LSTM Precision History|![](figures/LSTM_Recall.png)<br>LSTM Precision History|
 |:-:|:-:|:-:|
 
 
