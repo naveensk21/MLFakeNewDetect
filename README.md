@@ -16,9 +16,9 @@ Install projects required Python packages with pip
 cd project
 pip install requirements.txt
 ```
-
-
-
+# Codes and Resources Used
+Editor Used: Pycharm, Jupterlab
+Python Version: 3.7.9
 
 # Python Packages Used
 General Purpose: os, request, re, json, pickle, time <br /> 
