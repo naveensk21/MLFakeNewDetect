@@ -31,14 +31,14 @@ ML/DL Model Results
   <img src="figures/LSTM_Recall.png" width="300" />
 </p>
 
-<p float='left'>
-  <figure>
-      <img src="figures/LSTM_Loss.png" width="300">
-      <figcaption>Caption 1</figcaption>
-  </figure>
-  <figure>
-      <img src="figures/LSTM_Precision.png" width="300">
-      <figcaption>Caption 2</figcaption>
-  </figure>
-</p>
+
+<figure display="inline-block">
+    <img src="figures/LSTM_Loss.png" width="300">
+    <figcaption>Caption 1</figcaption>
+</figure>
+<figure>
+    <img src="figures/LSTM_Precision.png" width="300">
+    <figcaption>Caption 2</figcaption>
+</figure>
+
 
