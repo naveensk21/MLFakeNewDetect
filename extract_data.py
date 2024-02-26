@@ -2,6 +2,7 @@ import re
 import string
 
 import pandas as pd
+import opendatasets as od
 
 try:
     from collections.abc import Sequence
@@ -13,7 +14,12 @@ from nltk.stem.porter import PorterStemmer
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-dataset = pd.read_csv('dataset/WELFake_Dataset.csv')
+# download the dataset
+dataset_link = 'https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification'
+od.download(dataset_link)
+
+# load the dataset
+dataset = pd.read_csv('fake-news-classification/WELFake_Dataset.csv')
 
 del dataset['Unnamed: 0']
 
