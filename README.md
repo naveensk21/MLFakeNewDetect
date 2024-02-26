@@ -26,7 +26,7 @@ ML/DL Model Results
 ## LSTM Evaluation
 
 <p float="left">
-  <img src="figures/LSTM_Loss.png" width="300" />
+  <img src="figures/LSTM_Loss.png" width="300" /> <figcaption>Fig: 16-Bit RGB Image</figcaption>
   <img src="figures/LSTM_Precision.png" width="300" /> 
   <img src="figures/LSTM_Recall.png" width="300" />
 </p>
