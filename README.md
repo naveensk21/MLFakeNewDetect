@@ -31,6 +31,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 [WELFake Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)
 
 # Code Structure 
+```bash
 .
 ├── DL_Model.ipynb        # dl implementation notebook
 ├── EDA.ipynb             # explatory data analysis notebook
@@ -50,6 +51,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 │   ├── index.html
 │   ├── notebook.html
 │   └── predictions.html
+```
 
 # Classification Results 
 
