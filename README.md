@@ -37,7 +37,7 @@ ML/DL Model Results
       <figcaption>Caption 1</figcaption>
   </figure>
   <figure>
-      <img src="figures/LSTM_Precision.png">
+      <img src="figures/LSTM_Precision.png" width="300">
       <figcaption>Caption 2</figcaption>
   </figure>
 </p>
