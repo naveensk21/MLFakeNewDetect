@@ -18,7 +18,7 @@ pip3 install requirements.txt
 python3 extract_data.py         // to extract the data and clean the dataset
 python3 ml_model.py             // to create the ml models
 python3 dl_model.py             // to create the dl models
-python3 app.py                  //web server demo, go to localhost:5000
+python3 app.py                  // web server demo, go to localhost:5000
 ```
 
 # Python Packages Used
