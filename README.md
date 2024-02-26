@@ -30,6 +30,27 @@ Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 The dataset contains four columns: Serial number (starting from 0); Title (about the text news heading); Text (about the news content); and Label (0 = fake and 1 = real).
 [WELFake Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)
 
+# Code Structure 
+.
+├── DL_Model.ipynb        # dl implementation notebook
+├── EDA.ipynb             # explatory data analysis notebook
+├── ML_Model.ipynb        # ml implementation notebook
+├── README.md
+├── app.py                # web appl implementation using Flask
+├── clean_data.py         # python script for cleaning the new articles 
+├── figures               # model evaluation results 
+├── ml_model.py           # ml model implementation
+├── model                 # saved model and its tokenizer
+│   └── vectorizer.pickle
+├── requirements.txt      # list of dependencies 
+├── static                # stylesheets
+│   └── styles
+│       └── index.css
+├── templates             # html pages
+│   ├── index.html
+│   ├── notebook.html
+│   └── predictions.html
+
 # Classification Results 
 
 ## ML/DL Model Results
