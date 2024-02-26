@@ -15,11 +15,15 @@ Machine Learning: [Scikit-learn](https://scikit-learn.org/stable/install.html), 
 
 # Results 
 
-DL Model Results
+ML/DL Model Results
 
-| DL Model | Precision | Recall | F1-Score |
+| Models   | Precision | Recall | F1-Score |
 |----------|-----------|--------|----------|
 | RF       |   0.94    |  0.94  |   0.94   |
 | SVM      |   0.96    |  0.97  |   0.96   |
 | LSTM     |   0.97    |  0.98  |    -     |
+
+LSTM 
+
+![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
 
