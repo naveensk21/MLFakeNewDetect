@@ -9,6 +9,18 @@ The project aims to develop a natural language processing application from the g
 |![](figures/WebApp_Screenshot_Prediction.png)<br>Prediction Page|
 |:-:|
 
+# Installation
+
+```bash
+pip install git
+git clone https://github.com/naveensk21/MLFakeNewDetect.git
+pip3 install requirements.txt
+python3 extract_data.py         // to extract the data and clean the dataset
+python3 ml_model.py             // to create the ml models
+python3 dl_model.py             // to create the dl models
+python3 app.py                  //web server demo, go to localhost:5000
+```
+
 # Python Packages Used
 General Purpose: os, request, re, json, pickle, time <br /> 
 Data Manipulation: [pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) <br /> 
