@@ -32,6 +32,12 @@ Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 [(WELFake)](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification) is a dataset of 72,134 news articles with 35,028 real and 37,106 fake news.
 The dataset contains four columns: Serial number (starting from 0); Title (about the text news heading); Text (about the news content); and Label (0 = fake and 1 = real).
 
+## Data Preprocessing 
+Before initiating text classification, it's crucial to preprocess news articles to ensure data quality and model effectiveness. This preprocessing involves several steps:
+- Cleaning: punctuation, numerical values, and extra white spaces. This step prepares the text for analysis by eliminating irrelevant elements that could confuse the model.
+- Stop Word Removal: Eliminate common sets of words (stop words) that do not contribute significantly to the meaning of the text. 
+- Lemmatization: Convert words to their base or dictionary form. This process reduces words to their root form, enhancing the model's ability to understand the text by reducing the complexity of the input data.
+
 # Code Structure 
 ```bash
 .
