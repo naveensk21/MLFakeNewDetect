@@ -32,6 +32,6 @@ ML/DL Model Results
 </p>
 
 |![](figures/LSTM_Loss.png)<br>text-1|![](figures/LSTM_Precision.png)<br>text-2|![](figures/LSTM_Recall.png)<br>text-2|
-|:-:|:-:|
+|:-:|:-:|:-:|
 
 
