@@ -37,7 +37,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 ├── EDA.ipynb             # explatory data analysis notebook
 ├── ML_Model.ipynb        # ml implementation notebook
 ├── README.md
-├── app.py                # web appl implementation using Flask
+├── app.py                # web app implementation using Flask
 ├── clean_data.py         # python script for cleaning the new articles 
 ├── figures               # model evaluation results 
 ├── ml_model.py           # ml model implementation
@@ -53,7 +53,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 │   └── predictions.html
 ```
 
-# Classification Results 
+# Results and Evaluation
 
 ## ML/DL Model Results
 
@@ -64,13 +64,13 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 | LR       |   0.94    |  0.95  |   0.95   |
 | LSTM     |   0.97    |  0.98  |    -     |
 
-# Model Evaluation
-## LSTM Model 
+## Model Evaluation
+### LSTM Model 
 
 |![](figures/LSTM_Loss.png)<br>LSTM Loss History|![](figures/LSTM_Precision.png)<br>LSTM Precision History|![](figures/LSTM_Recall.png)<br>LSTM Recall History|
 |:-:|:-:|:-:|
 
-## Random Forest and Logistic Regression ROC
+### Random Forest and Logistic Regression ROC
 |![](figures/RF_ROC.png)<br>RF ROC|![](figures/LR_ROC.png)<br>LR ROC|
 |:-:|:-:|
 
