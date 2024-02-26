@@ -54,6 +54,11 @@ def home():
     return render_template('index.html')
 
 
+@app.route('/notebook')
+def view_notebook():
+    return render_template('notebook.html')
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     pred = []

@@ -1,41 +1,19 @@
-body {
-    background-color: lightblue;
-  }
-
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-::placeholder {
-   text-align: center;
-   font-size: 16px
-}
-
-#inputForm {
-    text-align: center;
-}
-
-#inputBox{
-    padding: 100px 100px;
-    width: 40%
-}
-
-#submitBtn{
-    width: 80px;
-    height: 100px;
-    margin: 10px
-}
-
-p {
-    text-align: center
-}
-
 #textArea1 {
     font-family:"Times New Roman", Times, serif;
     font-size: 16px;
     width: 60%
+}
+
+p {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#submitBtn {
+    width:125px;
+    padding:5px;
 }
