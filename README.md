@@ -32,24 +32,24 @@ Before initiating text classification, it's crucial to preprocess news articles 
 .
 ├── README.md
 ├── app.py                   # Web app implementation using Flask
-├── clean_data.py            # Extract and clean the dataset
+├── clean_data.py            # Data extraction and cleaning
 ├── dl_model.py              # DL model implementation
 ├── figures                  # Model evaluation figures
 ├── ml_model.py              # ML model implementation
 ├── model                    # Saved model and its tokenizer
 │   └── vectorizer.pickle
-├── notebooks                # detailed analysis and implementation of the ML and DL model
-│   ├── DL_Model.ipynb       # detailed implementation of the dl model
-│   ├── EDA.ipynb            # detailed exploratory data analysis
-│   └── ML_Model.ipynb       # detailed implementation of the ml model
-├── requirements.txt         # list of dependencies 
-├── static                   # stylesheet
+├── notebooks                # Detailed analysis and implementation of the ML and DL model
+│   ├── DL_Model.ipynb       # Detailed implementation of the dl model
+│   ├── EDA.ipynb            # Detailed exploratory data analysis
+│   └── ML_Model.ipynb       # Detailed implementation of the ml model
+├── requirements.txt         # List of dependencies 
+├── static                   # Stylesheet
 │   └── styles
 │       └── index.css
-├── templates                # html pages 
-│   ├── index.html           # homepage
-│   ├── notebook.html        # notebook page
-│   └── predictions.html     # prediction page
+├── templates                # Html pages 
+│   ├── index.html           # Homepage
+│   ├── notebook.html        # Notebook page
+│   └── predictions.html     # Prediction page
 ```
 
 # Results and Evaluation
