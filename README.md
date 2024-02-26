@@ -32,7 +32,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 |![](figures/LSTM_Loss.png)<br>LSTM Loss History|![](figures/LSTM_Precision.png)<br>LSTM Precision History|![](figures/LSTM_Recall.png)<br>LSTM Recall History|
 |:-:|:-:|:-:|
 
-### Random Forest and Logistic Regression 
+### Random Forest and Logistic Regression ROC
 |![](figures/RF_ROC.png)<br>RF ROC|![](figures/LR_ROC.png)<br>LR ROC|
 |:-:|:-:|
 
