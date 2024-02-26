@@ -16,7 +16,7 @@ Web Development: HTML/CSS, [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 The dataset contains four columns: Serial number (starting from 0); Title (about the text news heading); Text (about the news content); and Label (0 = fake and 1 = real).
 [WELFake Dataset](https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification)
 
-# Results 
+# Classification Results 
 
 ## ML/DL Model Results
 
@@ -27,7 +27,7 @@ The dataset contains four columns: Serial number (starting from 0); Title (about
 | LR       |   0.94    |  0.95  |   0.95   |
 | LSTM     |   0.97    |  0.98  |    -     |
 
-# Evaluation
+# Model Evaluation
 ## LSTM Model 
 
 |![](figures/LSTM_Loss.png)<br>LSTM Loss History|![](figures/LSTM_Precision.png)<br>LSTM Precision History|![](figures/LSTM_Recall.png)<br>LSTM Recall History|
