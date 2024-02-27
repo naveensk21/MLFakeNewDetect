@@ -44,7 +44,7 @@ Before initiating text classification, it's crucial to preprocess news articles 
 .
 ├── README.md
 ├── app.py                         # Web app implementation using Flask
-├── extract_data.py                  # Data extraction and cleaning
+├── extract_data.py                # Data extraction and cleaning
 ├── dl_model.py                    # DL model implementation
 ├── figures                        # Model evaluation figures
 ├── ml_model.py                    # ML model implementation
