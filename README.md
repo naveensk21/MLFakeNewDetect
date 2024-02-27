@@ -13,13 +13,9 @@ The project aims to develop a natural language processing application from the g
 
 ```bash
 pip install git
-pip install git-lfs
 git clone https://github.com/naveensk21/MLFakeNewDetect.git
-pip3 install -r requirements.txt
-python3 extract_data.py         // to extract the data and clean the dataset
-python3 ml_model.py             // to create the ml models
-python3 dl_model.py             // to create the dl models
-python3 app.py                  // web server demo, go to localhost:5000
+pip3 install -r requirements.txt   // install the dependencies 
+python3 app.py                     // web server demo, go to localhost:5000
 ```
 
 # Python Packages Used
@@ -46,9 +42,9 @@ Before initiating text classification, it's crucial to preprocess news articles 
 ├── README.md
 ├── app.py                         # Web app implementation using Flask
 ├── extract_data.py                # Data extraction and cleaning
-├── dl_model.py                    # DL model implementation
+├── dl_model.py                    # Build DL model 
 ├── figures                        # Model evaluation figures
-├── ml_model.py                    # ML model implementation
+├── ml_model.py                    # Build ML model 
 ├── model                          # Saved model and its tokenizer
 │   ├── lst_best_model.hdf5  
 │   ├── lstm_tokenizer.pickle
