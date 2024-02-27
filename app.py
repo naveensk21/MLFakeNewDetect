@@ -15,7 +15,7 @@ except ImportError:
 # load model
 rf_loaded_model = pickle.load(open('model/rf_model.sav', 'rb'))
 svm_loaded_model = pickle.load(open('model/svm_model.sav', 'rb'))
-lstm_loaded_model = load_model('model/lstm_best_model.epoch08-loss0.07.hdf5')
+lstm_loaded_model = load_model('model/lst_best_model.hdf5')
 
 # load vectorizer
 rf_loaded_vectorizer = pickle.load(open("model/rf_vectorizer.pickle", "rb"))
