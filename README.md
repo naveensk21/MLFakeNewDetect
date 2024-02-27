@@ -13,8 +13,9 @@ The project aims to develop a natural language processing application from the g
 
 ```bash
 pip install git
+pip install git-lfs
 git clone https://github.com/naveensk21/MLFakeNewDetect.git
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 python3 extract_data.py         // to extract the data and clean the dataset
 python3 ml_model.py             // to create the ml models
 python3 dl_model.py             // to create the dl models
